@@ -1,14 +1,14 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
+
     defaultConfig {
-        applicationId "android.support"
-        minSdkVersion 15
+        minSdkVersion 14
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+
+
     }
     buildTypes {
         release {
@@ -20,15 +20,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':cardview')
-    compile project(':appcompat-v7')
-    compile project(':support-compat')
+    compile 'com.android.support:support-annotations:25.3.1'
     compile project(':support-core-ui')
-    compile project(':support-fragment')
-    compile project(':support-core-utils')
-    compile project(':support-media-compat')
-    compile project(':support-vector-drawable')
-    compile project(':design')
+    compile project(':appcompat-v7')
     compile project(':transition')
     compile project(':recyclerview-v7')
 }

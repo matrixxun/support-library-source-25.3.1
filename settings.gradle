@@ -1,1 +1,12 @@
-include ':app', ':cardview', ':appcompat-v7', ':support-compat', ':support-core-ui', ':support-fragment', ':support-core-utils', ':support-media-compat', ':support-vector-drawable'
+include ':app',
+        ':cardview',
+        ':appcompat-v7',
+        ':support-compat',
+        ':support-core-ui',
+        ':support-fragment',
+        ':support-core-utils',
+        ':support-media-compat',
+        ':support-vector-drawable',
+        ':design',
+        ':transition',
+        ':recyclerview-v7'
