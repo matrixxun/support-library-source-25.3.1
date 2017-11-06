@@ -1,4 +1,4 @@
-include ':app',
+include ':app', ':support-annotations',
         ':cardview',
         ':appcompat-v7',
         ':support-compat',
