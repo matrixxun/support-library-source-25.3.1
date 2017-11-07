@@ -1,4 +1,4 @@
-include ':app', ':support-annotations', ':palette-v7', ':preference-v7',
+include ':app', ':support-annotations', ':palette-v7', ':preference-v7', ':percent',
         ':cardview',
         ':appcompat-v7',
         ':support-compat',
